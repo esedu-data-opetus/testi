@@ -1,0 +1,64 @@
+body {
+background-image: url('sormenjalki.gif');	
+}
+
+h1 {
+letter-spacing: 15px;
+text-transform: uppercase;
+margin: 40px 0 5px 0;
+}
+
+#sivu {
+width: 600px;
+background-color: rgb(255,255,150);
+margin: 20px auto;
+padding: 15px;
+border: 1px solid #555555;
+}
+
+#valikko {
+float: right;
+width: 130px;
+height: 200px;
+background-color: rgb(200,200,150);
+/*
+border-style: solid;
+border-width: 2px;
+border-color: black;
+*/
+border: 1px dashed black;
+padding: 10px;
+margin-top: 80px;
+}
+
+#valikko ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+h1+p:first-letter {
+	font-size: 3em;
+	float: left;
+	margin: 5px 2px 0 0;
+}
+
+*+p:first-line {
+	text-indent: 15em;
+	color: red;
+}
+
+
+.oikea {
+float: right;
+margin: 0 0 0 5px;
+padding: 5px;
+border: 2px solid rgb(210,210,130);
+}
+.vasen {
+float: left;
+margin: 0 5px 0 0;
+padding: 5px;
+border: 2px solid rgb(210,210,130);
+}
+
